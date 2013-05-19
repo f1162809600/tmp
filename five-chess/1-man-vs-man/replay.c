@@ -189,7 +189,6 @@ int main(int argc, char * argv[])
 
 		/* put the chess down */
 		put(x, y, who);
-		step++;
 
 		printf("step %d : %d %d [Player %d]\n", step, x, y, who); 
 
